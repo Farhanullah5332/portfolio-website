@@ -1,343 +1,317 @@
 body {
-    background-color: black;
-    height: 200vh;
-    /* #4AF7FF */
-    /* #7DF9FF */
+  background-color: black;
+  height: 200vh;
+  /* #4AF7FF */
+  /* #7DF9FF */
 }
-#navbarNav .navbar-nav .nav-item a:hover{
-    color: #4AF7FF  !important;
-    transition: color  0.5s ease-in-out none !important;
+#navbarNav .navbar-nav .nav-item a:hover {
+  color: #4af7ff !important;
+  transition: color 0.5s ease-in-out none !important;
 }
-
 
 .main .image img {
-    height: 400px;
-    width: 430px;
-    border-radius: 50%;
-    transform: scaleX(-1);
-    position: relative;
-    transition: transform 0.2s, box-shadow 0.2s;
-
+  height: 400px;
+  width: 430px;
+  border-radius: 50%;
+  transform: scaleX(-1);
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.main .image img{
-    box-shadow: 0 0px 10px white;
+.main .image img {
+  box-shadow: 0 0px 10px white;
 }
-.main .image img:hover{
-    box-shadow: 0 0 20px white;
-    transform: scaleX(-1);
-
-    
+.main .image img:hover {
+  box-shadow: 0 0 20px white;
+  transform: scaleX(-1);
 }
 
 /*  whatsapp-icon  */
 
-
 /* General Social Button */
 .icons .socialBtn {
-
-    z-index: 1000;
-    text-decoration: none;
-    display: flex;
-    flex-direction:row ;
-    justify-content: space-evenly;
-    align-items: center;
-    transition: transform 0.2s, box-shadow 0.2s;
-    margin: 20px 10px;
-    width: 70%;
+  z-index: 1000;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 20px 10px;
+  width: 70%;
 }
 
 /* Icon Container */
 
 /* CV Download Button Styling */
 .cv-download-button {
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    background: linear-gradient(90deg, #007BFF, #0056B3); /* Professional gradient */
-    color: white;
-    padding: 15px 21px;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    width: 70%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background: linear-gradient(
+    90deg,
+    #007bff,
+    #0056b3
+  ); /* Professional gradient */
+  color: white;
+  padding: 15px 21px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width: 70%;
 }
-.icons .cvBtn{
-    display: flex;
-    justify-content: center;
+.icons .cvBtn {
+  display: flex;
+  justify-content: center;
 }
 
 /* CV Text */
 .cv-download-button .cv-text {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* CV Icon Styling */
 .cv-download-button .cv-icon i {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 /* Hover Effect */
 .cv-download-button:hover {
-    background: linear-gradient(90deg, #0056B3, #003A80); /* Darker gradient on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    transform: translateY(-3px);
+  background: linear-gradient(
+    90deg,
+    #0056b3,
+    #003a80
+  ); /* Darker gradient on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
 }
 
 /* Focus Effect */
 .cv-download-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
 }
 
 .social-icon {
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0px 7px rgb(255, 255, 255);
-    transition: transform 0.2s, box-shadow 0.2s;
-    margin: 0 10px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0px 7px rgb(255, 255, 255);
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin: 0 10px;
 }
 
 .social-icon img {
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
 }
 
 /* Hover Effects */
-.social-icon:hover  {
-    transform: scale(1.2);
-    box-shadow: 0 0px 12px rgba(255, 255, 255);
+.social-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0px 12px rgba(255, 255, 255);
 }
 
 /* Specific Background Colors */
 .whatsapp-button .social-icon {
-    background-color: #25D366; /* WhatsApp green */
+  background-color: #25d366; /* WhatsApp green */
 }
 
 .github-button .social-icon {
-    background-color: #333; /*GitHub dark gray*/
-
-    
+  background-color: #333; /*GitHub dark gray*/
 }
 
 .linkedin-button .social-icon {
-    background-color: #0A66C2; /* LinkedIn blue */
+  background-color: #0a66c2; /* LinkedIn blue */
 }
 
 .instagram-button .social-icon {
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Instagram gradient */
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  ); /* Instagram gradient */
 }
 
 .main .image h1 {
-    position: relative;
-    font-size: xxx-large;
-    font-weight: bolder;
-    font-family: "Kalnia Glaze", serif;
+  position: relative;
+  font-size: xxx-large;
+  font-weight: bolder;
+  font-family: "Kalnia Glaze", serif;
 }
 
-
 .main {
-    position: relative;
-    top: 130px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  position: relative;
+  top: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .main .text {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main .text .hello h2 {
-    color: #7DF9FF;
-    font-size: 2.5em;
-    font-weight: bold;
+  color: #7df9ff;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .main .text .name {
-    color: #7DF9FF;
+  color: #7df9ff;
 }
 
 .main .text .tpwtr {
-    color: #7DF9FF;
-    font-size: 1.3em;
-    font-weight: 700;
+  color: #7df9ff;
+  font-size: 1.3em;
+  font-weight: 700;
 }
 
 .main .text .para {
-
-    width: 90%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 15px;
-    line-height: 1.6;
-    font-size: larger;
+  width: 90%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  line-height: 1.6;
+  font-size: larger;
 }
 
 .myProjects {
-    position: relative;
-    top: 260px;
+  position: relative;
+  top: 260px;
 }
 
 .myProjects .proTitle h2 {
-    color: #7DF9FF;
-    font-size: xx-large;
-    font-weight: 900;
-    text-align: center;
-    margin: 50px;
+  color: #7df9ff;
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*...........................................Media query................................................... */
 @media only screen and (max-width: 575.98px) {
-    .image {
-        display: flex;
-        align-items: center;
-        margin: 20px;
-        margin-bottom: 90px
-    }
+  .image {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 90px;
+  }
 
-    .main .image img {
-        height: 300px;
-        width: 300px;
-    }
+  .main .image img {
+    height: 300px;
+    width: 300px;
+  }
 
-    .main {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        align-items: center;
-    }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-    .main .text {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  .main .text {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .main .text .para {
+  .main .text .para {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 1.5;
+  }
 
-        width: 85%;
-        display: flex;
-        justify-content: center;
-        text-align: justify;
-        margin-top: 15px;
-        line-height: 1.5;
+  /* Icon................................................................. */
+  .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 90%;
+  }
 
-    }
+  .social-icon {
+    width: 45px;
+    height: 45px;
+    margin: 2px 5px;
+  }
 
-    /* Icon................................................................. */
-    .icons {
-        display: flex;
-        flex-direction:column ;
-        justify-content: space-evenly;
-        align-items: center;
-        transition: transform 0.2s, box-shadow 0.2s;
-        width: 90%;
-
-    }
-
-    .social-icon {
-        width: 45px;
-        height: 45px;
-        margin:2px  5px;
-    }
-    
-    .social-icon img {
-        width: 28px;
-        height: 28px;
-    }
-    .icons .cvBtn{
-        width: 90%;
-        margin-bottom: 10px;
-    }
-    .cv-download-button{
-        font-size: 15px;
-    }
-    .cv-download-button{
-        height: 18px;
-
-    }
-    .cv-download-button .cv-icon i{
-
-        font-size: 18px;
-        
-    }
-
+  .social-icon img {
+    width: 28px;
+    height: 28px;
+  }
+  .icons .cvBtn {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .cv-download-button {
+    font-size: 15px;
+  }
+  .cv-download-button {
+    height: 18px;
+  }
+  .cv-download-button .cv-icon i {
+    font-size: 18px;
+  }
 }
-
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .icons {
+    margin: 15px 7px;
+    width: 100%;
+  }
 
-    .icons {
-        margin: 15px 7px;
-        width: 100%;
-    }
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+  }
 
-    .social-icon {
-        width: 40px;
-        height: 40px;
-        margin: 0 5px;
-    }
-    
-    .social-icon img {
-        width: 20px;
-        height: 20px;
-    }
-    .cv-download-button{
-        font-size: 16px;
+  .social-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .cv-download-button {
+    font-size: 16px;
+  }
+  .cv-download-button .cv-icon i {
+    font-size: 20px;
+  }
+  .icons .cvBtn {
+    height: 40px;
+  }
 
-    }
-    .cv-download-button .cv-icon i{
-
-        font-size: 20px;
-        
-    }
-    .icons .cvBtn{
-        height: 40px;
-    }
-
-    .icons .socialBtn{
-        width: 90%;
-        margin-bottom: 10px;
-        justify-content: space-evenly;
-    }
-
-
-
+  .icons .socialBtn {
+    width: 90%;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {}
-
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+}
